@@ -1,0 +1,10 @@
+# The R package library lives outside the repository, not in a subdirectory.
+options(repos = c(CRAN = "https://cloud.r-project.org"), timeout = 600)
+lib <- Sys.getenv("BSLM_LIBRARY", tools::R_user_dir("bslmAODS", "data"))
+dir.create(lib, recursive = TRUE, showWarnings = FALSE)
+lib <- normalizePath(lib, winslash = "/", mustWork = TRUE)
+.libPaths(c(lib, .libPaths()))
+if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", lib = lib)
+lock <- normalizePath("renv.lock", winslash = "/", mustWork = TRUE)
+renv::restore(project = tempdir(), lockfile = lock, library = lib, prompt = FALSE)
+cat("Packages restored to", lib, "\nReference R version: 4.6.0.\n")

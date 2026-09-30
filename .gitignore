@@ -1,0 +1,11 @@
+# Large fits and locally regenerated output stay on the reader's machine.
+fit-*.rds
+chain-*.rds
+output-*
+*.log
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+Thumbs.db

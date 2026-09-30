@@ -1,0 +1,12 @@
+*.R text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.json text eol=lf
+*.lock text eol=lf
+*.csv -text whitespace=cr-at-eol
+*.txt -text whitespace=-blank-at-eol,cr-at-eol
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.xls binary
+*.pdf binary
+*.png binary

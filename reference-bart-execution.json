@@ -1,0 +1,162 @@
+[
+  {
+    "fold": 1,
+    "settings": {
+      "package": "dbarts",
+      "version": "0.9.34",
+      "ntree": 1000,
+      "k": 2,
+      "depth_base": 0.95,
+      "depth_power": 2,
+      "numcut": 100,
+      "usequants": false,
+      "sigdf": 3,
+      "sigquant": 0.9,
+      "continuation": "same chains and RNG states",
+      "threads": 1
+    },
+    "chains": 4,
+    "seeds": [202609201, 202609202, 202609203, 202609204],
+    "retained_per_chain": 16000,
+    "warmup_per_chain": 8000,
+    "max_rhat": 1.00743669467603,
+    "min_bulk": 910.093702793948,
+    "min_tail": 4796.83227078755,
+    "fit_seconds": 449.59,
+    "script_hashes": {
+      "config.R": "403a52180a245e660d5a791449189386ebe7d0a743b58fac937b54510eb01930",
+      "02-models.R": "064e45720bccb3b6355b4bbc2aab33fbc505eb6b7545c7513d620d6aab5e91f1",
+      "15-bart-1000.R": "4941eeaf2617eb0542152e2354e542458c4127cbb9ca82c84b0651c191868742"
+    },
+    "chain_source_history": null,
+    "data_sha256": "7f3fe44531561589f978aa18c782a7d88875fbbf170722eb8632eb924a15b4ff"
+  },
+  {
+    "fold": 2,
+    "settings": {
+      "package": "dbarts",
+      "version": "0.9.34",
+      "ntree": 1000,
+      "k": 2,
+      "depth_base": 0.95,
+      "depth_power": 2,
+      "numcut": 100,
+      "usequants": false,
+      "sigdf": 3,
+      "sigquant": 0.9,
+      "continuation": "same chains and RNG states",
+      "threads": 1
+    },
+    "chains": 4,
+    "seeds": [202609301, 202609302, 202609303, 202609304],
+    "retained_per_chain": 64000,
+    "warmup_per_chain": 8000,
+    "max_rhat": 1.00516158292183,
+    "min_bulk": 892.692938733056,
+    "min_tail": 3196.87306743834,
+    "fit_seconds": 1338.34,
+    "script_hashes": {
+      "config.R": "403a52180a245e660d5a791449189386ebe7d0a743b58fac937b54510eb01930",
+      "02-models.R": "064e45720bccb3b6355b4bbc2aab33fbc505eb6b7545c7513d620d6aab5e91f1",
+      "15-bart-1000.R": "4941eeaf2617eb0542152e2354e542458c4127cbb9ca82c84b0651c191868742"
+    },
+    "chain_source_history": null,
+    "data_sha256": "7f3fe44531561589f978aa18c782a7d88875fbbf170722eb8632eb924a15b4ff"
+  },
+  {
+    "fold": 3,
+    "settings": {
+      "package": "dbarts",
+      "version": "0.9.34",
+      "ntree": 1000,
+      "k": 2,
+      "depth_base": 0.95,
+      "depth_power": 2,
+      "numcut": 100,
+      "usequants": false,
+      "sigdf": 3,
+      "sigquant": 0.9,
+      "continuation": "same chains and RNG states",
+      "threads": 1
+    },
+    "chains": 4,
+    "seeds": [202609401, 202609402, 202609403, 202609404],
+    "retained_per_chain": 16000,
+    "warmup_per_chain": 8000,
+    "max_rhat": 1.00877713971884,
+    "min_bulk": 636.711989727266,
+    "min_tail": 2540.46120174824,
+    "fit_seconds": 761.31,
+    "script_hashes": {
+      "config.R": "403a52180a245e660d5a791449189386ebe7d0a743b58fac937b54510eb01930",
+      "02-models.R": "064e45720bccb3b6355b4bbc2aab33fbc505eb6b7545c7513d620d6aab5e91f1",
+      "15-bart-1000.R": "4941eeaf2617eb0542152e2354e542458c4127cbb9ca82c84b0651c191868742"
+    },
+    "chain_source_history": null,
+    "data_sha256": "7f3fe44531561589f978aa18c782a7d88875fbbf170722eb8632eb924a15b4ff"
+  },
+  {
+    "fold": 4,
+    "settings": {
+      "package": "dbarts",
+      "version": "0.9.34",
+      "ntree": 1000,
+      "k": 2,
+      "depth_base": 0.95,
+      "depth_power": 2,
+      "numcut": 100,
+      "usequants": false,
+      "sigdf": 3,
+      "sigquant": 0.9,
+      "continuation": "same chains and RNG states",
+      "threads": 1
+    },
+    "chains": 4,
+    "seeds": [202609501, 202609502, 202609503, 202609504],
+    "retained_per_chain": 32000,
+    "warmup_per_chain": 8000,
+    "max_rhat": 1.00741157564827,
+    "min_bulk": 1829.89170582317,
+    "min_tail": 10048.7718915951,
+    "fit_seconds": 1029.11,
+    "script_hashes": {
+      "config.R": "403a52180a245e660d5a791449189386ebe7d0a743b58fac937b54510eb01930",
+      "02-models.R": "064e45720bccb3b6355b4bbc2aab33fbc505eb6b7545c7513d620d6aab5e91f1",
+      "15-bart-1000.R": "4941eeaf2617eb0542152e2354e542458c4127cbb9ca82c84b0651c191868742"
+    },
+    "chain_source_history": null,
+    "data_sha256": "7f3fe44531561589f978aa18c782a7d88875fbbf170722eb8632eb924a15b4ff"
+  },
+  {
+    "fold": 5,
+    "settings": {
+      "package": "dbarts",
+      "version": "0.9.34",
+      "ntree": 1000,
+      "k": 2,
+      "depth_base": 0.95,
+      "depth_power": 2,
+      "numcut": 100,
+      "usequants": false,
+      "sigdf": 3,
+      "sigquant": 0.9,
+      "continuation": "same chains and RNG states",
+      "threads": 1
+    },
+    "chains": 4,
+    "seeds": [202609601, 202609602, 202609603, 202609604],
+    "retained_per_chain": 16000,
+    "warmup_per_chain": 8000,
+    "max_rhat": 1.00723191624103,
+    "min_bulk": 1176.15715622929,
+    "min_tail": 4329.90009577934,
+    "fit_seconds": 442.529999999999,
+    "script_hashes": {
+      "config.R": "403a52180a245e660d5a791449189386ebe7d0a743b58fac937b54510eb01930",
+      "02-models.R": "064e45720bccb3b6355b4bbc2aab33fbc505eb6b7545c7513d620d6aab5e91f1",
+      "15-bart-1000.R": "4941eeaf2617eb0542152e2354e542458c4127cbb9ca82c84b0651c191868742"
+    },
+    "chain_source_history": null,
+    "data_sha256": "7f3fe44531561589f978aa18c782a7d88875fbbf170722eb8632eb924a15b4ff"
+  }
+]

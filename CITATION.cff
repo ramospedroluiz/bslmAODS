@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying article and this repository when using the analysis."
+type: software
+title: "bslmAODS: R code for Bayesian Supervised Learning Methods"
+authors:
+  - family-names: Ramos
+    given-names: Pedro Luiz
+version: 1.0.0
+date-released: 2026-09-30
+repository-code: "https://github.com/ramospedroluiz/bslmAODS"
+url: "https://github.com/ramospedroluiz/bslmAODS"
+abstract: "Reproducibility code for the concrete-strength illustration in Bayesian Supervised Learning Methods: Regularization and Predictive Uncertainty, accepted for publication in Annals of Data Science."
